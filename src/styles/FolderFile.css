@@ -1,0 +1,18 @@
+.main{
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+
+}
+.main:hover  .adj{
+    display:flex;
+    align-items:flex-end;
+    gap:5px;
+}
+.adj{
+    display: none;
+}
+.adj span{
+    display: flex;
+    align-items: center;
+}
